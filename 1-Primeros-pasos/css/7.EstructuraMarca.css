@@ -1,0 +1,59 @@
+body {
+  background-color: #ccc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "book antiqua", arial;
+}
+/* Todos los h1*/
+h1 {
+  color: palevioletred;
+  font-size: 5em;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+}
+/* El tamaño 2em es el tamaño 2 veces la m, que es el predeterminado de h1, 
+podriamos quitarlo*/
+/*todos los p*/
+p {
+  color: lightcoral;
+  margin: 50px;
+  padding: 20px;
+  font-family: "comic sans", cursive;
+}
+/* usamos el id uno para que solo coloree el texto del parrafo primero*/
+#uno {
+  color: teal;
+  font-family: "book antiqua", arial, sans-serif;
+}
+#dos {
+  background-color: aquamarine;
+  color: black;
+}
+/* usamos la clase derecha para poner alineado a la derecha 
+los parrafos 1º y 3º */
+.derecha {
+  text-align: right;
+}
+/* aplicamos negrita a small y mark */
+mark,
+small {
+  font-weight: bold;
+}
+mark {
+  background-color: plum;
+  color: teal;
+}
+/*para que haga el tamaño de la negrita más grande, queremos que
+se aplique a la negrita del primer parrafo, por eso usamos el ide uno */
+#uno strong {
+  font-size: 1.5em;
+}
+small {
+  color: rgb(0, 0, 183);
+  text-align: left;
+  margin: 50px;
+  padding: 20px;
+}
