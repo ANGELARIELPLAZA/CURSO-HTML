@@ -1,0 +1,46 @@
+:root {
+    --titulo: #03045e;
+    --azulbajo: #5A64D7;
+    --primario: #90e0ef;
+    --font: "Roboto", sans-serif;
+    --font-titulo:"Copperplate", Copperplate Gothic Light, fantasy;
+    --font-nav:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 16px; /* 1rem = 10px */
+    
+    background-color:aquamarine ;    
+  }  
+  /* NAVEGACION*/
+.header{
+    
+}
+.contenedor {
+  width: 120rem;
+  margin: 0rem auto 3rem;
+}
+
+.navegacion-principal {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navegacion-principal a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none; /*Elimina el subrayado de abajo*/
+  font-family:var(--font-nav);
+  font-weight: 500;
+}
+.navegacion-principal a:hover {
+    color: #0959ee;
+    transition: 0.5s;
+  
+}
